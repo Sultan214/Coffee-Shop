@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap');
+
+*{
+    margin: 0;
+}
+body{
+    font-family: Poppins;
+    color:#333;
+    
+    
+}
+
+header{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+nav{
+    display: flex;
+    gap: 25px;
+    margin-top:20px;
+}
+
+
+a{
+    text-decoration: none;
+    color: #333;
+    font-size: 25px;
+}
+
+h1{
+    font-size: 50px;
+}
+
+section{
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.home-page{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.profile{
+    display:flex;
+   gap:120px;
+}
+
+.profile1, .profile2, .profile3 {
+    display:grid;
+    justify-items: center;
+}
+
+.footer{
+    background:#4a3e30;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 25px;
+    
+}
+
+.font-awesome{
+    font-size: 40px;
+}
+
+tr:nth-child(even){
+    background-color: bisque;
+}
+
+td{
+    border: 1px solid #4a3e30;
+    padding:16px;
+    text-align: center;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+    width: 450px;
+    font-size: 20px;
+}
+
+input,textarea{
+    width: 70%;
+    padding:7px;
+    background-color: rgb(220, 231, 245);
+    border-radius: 5px;
+}
+button{
+padding:8px;
+background-color: antiquewhite;
+border-radius: 5px;
+font-size:15px;
+
+}
+button:hover{
+    color:white;
+    background-color: aquamarine;
+
+}
